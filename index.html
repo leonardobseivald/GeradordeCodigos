@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link href="style.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" title="Estilos padrão">
     <title>Document</title>
 </head>
 <body>
-    <pre>
+    <div id="containerInputs">
+        <div id="labelsChaveValor">
+            <span id="Chave">Chave</span>
+            <span id="spanValor">Valor</span>
+        </div>
+        <div>
+            <input type="text" name="chave">
+            <input type="text" name="valor">
+            <input type="button" value="Adicionar" id="btnAdicionarChave">
+        </div>
+    </div>
+    <pre id="containerJSon">
         <code>
             console.log('Heloo World!')
         </code>
